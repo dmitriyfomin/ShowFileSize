@@ -1,10 +1,17 @@
 
+
 /**
  * ShowFileSize - converting byte size of file to KB, MB, GB, TB, PB...
  * @author Dmitry Fomin
  */
 class ShowFileSize {
 
+    /**
+     * Method getSize
+     * @param long num
+     * @param int digits
+     * @return object of class java.lang.String
+     */
     public static String getSize(long num, int digits) {
         String[] unitname = {"B", "kB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"};
         int numlength = String.valueOf(num).length();
