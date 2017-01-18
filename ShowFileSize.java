@@ -1,5 +1,3 @@
-
-
 /**
  * ShowFileSize - converting byte size of file to KB, MB, GB, TB, PB...
  * @author Dmitry Fomin
