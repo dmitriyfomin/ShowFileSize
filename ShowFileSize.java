@@ -1,11 +1,14 @@
+
 /**
  * ShowFileSize - converting byte size of file to KB, MB, GB, TB, PB...
+ *
  * @author Dmitry Fomin
  */
 class ShowFileSize {
 
     /**
      * Method getSize
+     *
      * @param long num
      * @param int digits
      * @return object of class java.lang.String
@@ -20,7 +23,7 @@ class ShowFileSize {
     }
 
     public static void main(String[] args) {
-        Long argsize = Long.parseLong(args[0]);
+        long argsize = Long.parseLong(args[0]);
         System.out.println(getSize(argsize, 2));
     }
 }
