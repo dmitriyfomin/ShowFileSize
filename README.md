@@ -1,5 +1,5 @@
 # ShowFileSize
-Converting byte size of file to KB, MB, GB, TB, PB...
+Converting byte size of file to human readable KB, MB, GB, TB, PB...
 # Usage
 1. Compile .java file with JDK
 2. Go to folder with ShowFileSize.class in terminal or open this path in terminal
